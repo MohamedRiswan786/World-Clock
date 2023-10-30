@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /* background-color: black;
+    color: white; */
+    text-align: center;
+    color: #1F1717;
+    background-color: #F4BF96;
+    /* height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px; */
+}
+h1{
+    background-color: #1F1717;
+    color: #FCF5ED;
+    padding: 10px;
+    font-size: 60px;
+}
+h2{
+    margin-top: 20px;
+}
+.clockDiv{
+    height: 40vh;
+    /* margin-top: 10px; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 100px;
+}
+.selectDiv{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+select{
+    padding: 10px;
+    margin-right: 10px;
+}

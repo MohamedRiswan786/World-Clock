@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./world_clock.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="parentDiv">
+        <h1>World_Clock</h1>
+        <hr>
+        <h2>Select Any Country and Region</h2>
+        <div class="selectDiv">
+    <select name="" id="fromCountry" onchange="insertRegion(value)">
+        <option value="" >--Select Any Country--</option>
+    </select>
+    <select name="" id="fromRegion" onchange="getTime(value)">
+        <option value="">--Select Any Region---</option>
+    </select>
+    <!-- <select name="" id="toTime">
+        
+    </select> -->
+</div>
+
+    <div class="clockDiv">
+        <span id="hour">00</span>
+        <span>:</span>
+        <span id="minutes">00</span>
+        <span>:</span>
+        <span id="seconds">00</span>
+        <span>:</span>
+        <span id="ampm">AM</span>
+    </div>
+
+</div>
+    <script src="./worldClock.js"></script>
+</body>
+</html>
